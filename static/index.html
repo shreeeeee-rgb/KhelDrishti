@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KhelDrishti — Edge AI Biomechanics Coach</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="hero">
+    <div class="brand">
+      <div class="logo-mark">KD</div>
+      <div>
+        <h1>KhelDrishti</h1>
+        <p class="tagline">Grassroots to Gold • Edge AI Biomechanics</p>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <label class="sr">Movement
+        <select id="movementSelect">
+          <option value="vertical_jump">Vertical Jump (CMJ)</option>
+          <option value="volleyball_spike">Volleyball Spike</option>
+          <option value="running_gait">Running Gait</option>
+          <option value="squat">Squat</option>
+        </select>
+      </label>
+      <button type="button" id="langToggle" class="chip">EN | हिं</button>
+      <div class="fps-pill">FPS <strong id="fpsValue">—</strong></div>
+      <div id="healthPill" class="health">…</div>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button type="button" class="tab active" data-tab="live">Live Camera</button>
+    <button type="button" class="tab" data-tab="upload">Video Upload</button>
+    <button type="button" class="tab" data-tab="report">Deep Kinematics</button>
+    <button type="button" class="tab" data-tab="benchmarks">Standards</button>
+  </nav>
+
+  <main>
+    <section id="tab-live" class="panel active">
+      <div class="split">
+        <div class="stage glass">
+          <video id="cam" playsinline muted></video>
+          <canvas id="overlay"></canvas>
+          <div class="stage-actions">
+            <button type="button" id="startCam" class="btn volt">Start Webcam</button>
+            <button type="button" id="stopCam" class="btn ghost">Stop</button>
+            <label class="toggle"><input type="checkbox" id="voiceToggle" checked /> Voice coaching</label>
+            <span id="valgusBadge" class="badge safe">Valgus: Safe</span>
+          </div>
+        </div>
+        <aside class="dials glass">
+          <h2>Live telemetry</h2>
+          <div class="dial-row">
+            <div class="dial"><span>L Knee</span><strong id="lkLive">—</strong></div>
+            <div class="dial"><span>R Knee</span><strong id="rkLive">—</strong></div>
+            <div class="dial"><span>L Valgus</span><strong id="lvLive">—</strong></div>
+            <div class="dial"><span>R Valgus</span><strong id="rvLive">—</strong></div>
+            <div class="dial"><span>Trunk</span><strong id="trLive">—</strong></div>
+            <div class="dial"><span>RTT</span><strong id="rttLive">—</strong></div>
+          </div>
+          <p class="cue" id="liveCue">Start the camera to stream pose telemetry over WebSocket.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="tab-upload" class="panel">
+      <div class="split">
+        <div class="glass dropzone" id="dropzone">
+          <p>Drop a clip here or
+            <label class="link">browse<input type="file" id="fileInput" accept="video/*" hidden /></label>
+          </p>
+          <div class="progress"><div id="progressBar"></div></div>
+          <video id="preview" controls></video>
+          <div id="sampleCarousel" class="carousel"></div>
+          <button type="button" id="runSample" class="btn volt">Analyse sample</button>
+        </div>
+        <div class="glass">
+          <h2>Timeline</h2>
+          <div id="keyframeList" class="keyframes">Run an analysis to stamp keyframes.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab-report" class="panel">
+      <div class="report-grid">
+        <div class="glass score-card">
+          <h2>Athletic Form Score</h2>
+          <canvas id="scoreGauge" width="280" height="160"></canvas>
+          <p id="scoreLabel" class="score-num">—</p>
+          <p id="riskLabel" class="badge safe">Risk: —</p>
+          <p id="summaryText"></p>
+          <button type="button" id="exportBtn" class="btn ghost">Export athlete card</button>
+        </div>
+        <div class="glass">
+          <h2>Joint angles over time</h2>
+          <canvas id="angleChart" width="640" height="240"></canvas>
+        </div>
+        <div class="glass">
+          <h2>Bilateral symmetry</h2>
+          <p id="symmetryText">Awaiting report…</p>
+        </div>
+        <div class="glass">
+          <h2>Injury risk & drills</h2>
+          <ul id="tipsList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab-benchmarks" class="panel">
+      <div id="benchGrid" class="bench-grid"></div>
+    </section>
+  </main>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

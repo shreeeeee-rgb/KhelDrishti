@@ -1,0 +1,1 @@
+"""KhelDrishti FastAPI application package."""
