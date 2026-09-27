@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/static/index.html" },
+    { "source": "/static/(.*)", "destination": "/static/$1" },
+    { "source": "/sample-data/(.*)", "destination": "/sample_data/videos/$1" }
+  ]
+}

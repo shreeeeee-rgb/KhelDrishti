@@ -1,0 +1,3629 @@
+{
+  "vertical_jump_cmj": {
+    "movement": "vertical_jump",
+    "fps": 30.0,
+    "frame_count": 90,
+    "pose_detected_frames": 90,
+    "synthetic_fallback": true,
+    "analysis": {
+      "movement_type": "Vertical Jump (CMJ)",
+      "phases": [
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.UNWEIGHTING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.BRAKING",
+        "JumpPhase.PROPULSION",
+        "JumpPhase.PROPULSION",
+        "JumpPhase.PROPULSION",
+        "JumpPhase.PROPULSION",
+        "JumpPhase.PROPULSION",
+        "JumpPhase.TAKEOFF",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.FLIGHT",
+        "JumpPhase.LANDING"
+      ],
+      "deepest_knee_angle": 88.32931300893718,
+      "deepest_hip_angle": 138.78754629408306,
+      "flight_time_s": 0.3333333333333333,
+      "jump_height_cm": 13.625000000000002,
+      "takeoff_velocity_ms": 1.6350000000000002,
+      "landing_knee_angle": 168.15250710583598,
+      "peak_knee_valgus_left": 7.525206108806402,
+      "peak_knee_valgus_right": 3.7814214397068673,
+      "asymmetry_index": -4.7371236018169505,
+      "deepest_dip_frame": 73,
+      "takeoff_frame": 78,
+      "landing_frame": 89,
+      "squat_depth_class": "Below Parallel (ATG)",
+      "landing_stiffness": "Soft Landing \u2014 Excellent!",
+      "landing_risk_colour": "green",
+      "valgus_risk_left": "Caution",
+      "valgus_risk_right": "Safe",
+      "form_score": 92.0,
+      "warnings": [],
+      "tips": [],
+      "frame_count": 90,
+      "series": [
+        {
+          "i": 0,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 162.2938976224718,
+          "rk": 170.18286806845072,
+          "lv": 8.382941164040878,
+          "rv": 4.7167753858939,
+          "hip": 162.71209998310093
+        },
+        {
+          "i": 1,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 159.24308879164735,
+          "rk": 167.0333103053124,
+          "lv": 9.78790152454188,
+          "rv": 6.219459210776081,
+          "hip": 161.09101132964332
+        },
+        {
+          "i": 2,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 156.23561392554413,
+          "rk": 163.9156598610421,
+          "lv": 11.157857494181398,
+          "rv": 7.699078967584299,
+          "hip": 159.50979712163712
+        },
+        {
+          "i": 3,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 153.2754408662016,
+          "rk": 160.8353648705388,
+          "lv": 12.490424414159747,
+          "rv": 9.15179431836617,
+          "hip": 157.97137849093866
+        },
+        {
+          "i": 4,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 150.3660319797679,
+          "rk": 157.7974092568219,
+          "lv": 13.783694708822921,
+          "rv": 10.574202376061535,
+          "hip": 156.47819375269108
+        },
+        {
+          "i": 5,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 147.51035075268672,
+          "rk": 154.80628075243115,
+          "lv": 15.036226043483927,
+          "rv": 11.963364642170811,
+          "hip": 155.03221021992874
+        },
+        {
+          "i": 6,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 144.71087780898674,
+          "rk": 151.86595271040403,
+          "lv": 16.247020462366688,
+          "rv": 13.31682036640476,
+          "hip": 153.6349450985229
+        },
+        {
+          "i": 7,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 141.96963447631538,
+          "rk": 148.97987889561458,
+          "lv": 17.415496442018586,
+          "rv": 14.632587333957211,
+          "hip": 152.28749352971204
+        },
+        {
+          "i": 8,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 139.28821202412357,
+          "rk": 146.15099986590604,
+          "lv": 18.541455785438405,
+          "rv": 15.9091515560089,
+          "hip": 150.99056185692248
+        },
+        {
+          "i": 9,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 136.66780480180483,
+          "rk": 143.38175921045664,
+          "lv": 19.62504716560089,
+          "rv": 17.145447644724527,
+          "hip": 149.74450430960974
+        },
+        {
+          "i": 10,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 134.1092456848951,
+          "rk": 140.67412774687764,
+          "lv": 20.666727935309275,
+          "rv": 18.34083180110163,
+          "hip": 148.5493614881232
+        },
+        {
+          "i": 11,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 131.6130424633215,
+          "rk": 138.02963375687537,
+          "lv": 21.66722558342375,
+          "rv": 19.495049352035736,
+          "hip": 147.4048992700467
+        },
+        {
+          "i": 12,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 129.1794140511004,
+          "rk": 135.44939743194905,
+          "lv": 22.627499961631997,
+          "rv": 20.608198669741416,
+          "hip": 146.310647013954
+        },
+        {
+          "i": 13,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 126.80832564120503,
+          "rk": 132.93416787348403,
+          "lv": 23.54870715184451,
+          "rv": 21.680693123467364,
+          "hip": 145.26593419023976
+        },
+        {
+          "i": 14,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 124.03112341160434,
+          "rk": 129.97139383693212,
+          "lv": 24.586980638137693,
+          "rv": 22.910975523055342,
+          "hip": 143.96194886284997
+        },
+        {
+          "i": 15,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 121.11418217456804,
+          "rk": 126.85262163314864,
+          "lv": 25.642826654106432,
+          "rv": 24.175622408971527,
+          "hip": 142.58576758202005
+        },
+        {
+          "i": 16,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 118.31769303666124,
+          "rk": 123.86415707163373,
+          "lv": 26.63189784934394,
+          "rv": 25.36534313905943,
+          "hip": 141.30943689735128
+        },
+        {
+          "i": 17,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 115.63824614618419,
+          "rk": 121.00358583213898,
+          "lv": 27.56018805757333,
+          "rv": 26.485359917218606,
+          "hip": 140.12883740048153
+        },
+        {
+          "i": 18,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 113.07218748178872,
+          "rk": 118.26791763035737,
+          "lv": 28.43381140026854,
+          "rv": 27.541350878054455,
+          "hip": 139.03969520242111
+        },
+        {
+          "i": 19,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 110.6157389517346,
+          "rk": 115.65377157400664,
+          "lv": 29.258895181627363,
+          "rv": 28.539276556356523,
+          "hip": 138.03769974950228
+        },
+        {
+          "i": 20,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 108.26509393683168,
+          "rk": 113.157531060396,
+          "lv": 30.041499066994618,
+          "rv": 29.48523860010247,
+          "hip": 137.1185964827652
+        },
+        {
+          "i": 21,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 106.01649189110401,
+          "rk": 110.77547052625563,
+          "lv": 30.787556694492324,
+          "rv": 30.385368142497548,
+          "hip": 136.27825805733198
+        },
+        {
+          "i": 22,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 103.86627557841172,
+          "rk": 108.5038573117653,
+          "lv": 31.502835904400673,
+          "rv": 31.24574028347243,
+          "hip": 135.5127378003272
+        },
+        {
+          "i": 23,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 101.81093427355822,
+          "rk": 106.33903229094166,
+          "lv": 32.1929140211726,
+          "rv": 32.072310727730724,
+          "hip": 134.8183088317959
+        },
+        {
+          "i": 24,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 99.84713589714872,
+          "rk": 104.27747293444314,
+          "lv": 32.8631649822305,
+          "rv": 32.87087059769252,
+          "hip": 134.1914919076836
+        },
+        {
+          "i": 25,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 97.97175065607756,
+          "rk": 102.31584225598287,
+          "lv": 33.518755501995436,
+          "rv": 33.64701563515585,
+          "hip": 133.62907463915997
+        },
+        {
+          "i": 26,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 96.18186837152112,
+          "rk": 100.4510267592183,
+          "lv": 34.16464784075718,
+          "rv": 34.4061263128763,
+          "hip": 133.1281243443361
+        },
+        {
+          "i": 27,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 94.47481132020103,
+          "rk": 98.68016612393177,
+          "lv": 34.80560708662855,
+          "rv": 35.153355717631705,
+          "hip": 132.68599642362707
+        },
+        {
+          "i": 28,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 92.84814410587688,
+          "rk": 97.00067699758415,
+          "lv": 35.446211138377464,
+          "rv": 35.89362238732569,
+          "hip": 132.30033983239647
+        },
+        {
+          "i": 29,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 93.87139938148692,
+          "rk": 98.0545988320055,
+          "lv": 35.0375450095308,
+          "rv": 35.42388801273591,
+          "hip": 132.52558682914207
+        },
+        {
+          "i": 30,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 97.56029973791239,
+          "rk": 101.8803271769341,
+          "lv": 33.65397121420528,
+          "rv": 33.81335014823926,
+          "hip": 133.46625108437286
+        },
+        {
+          "i": 31,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 101.62826630545939,
+          "rk": 106.13443461379788,
+          "lv": 32.229316482243085,
+          "rv": 32.13024572657546,
+          "hip": 134.67428555998904
+        },
+        {
+          "i": 32,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 106.10234428833184,
+          "rk": 110.84579482984182,
+          "lv": 30.717824263838263,
+          "rv": 30.325091759544645,
+          "hip": 136.17695552633307
+        },
+        {
+          "i": 33,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 111.01324745746433,
+          "rk": 116.0466694953307,
+          "lv": 29.069893487887565,
+          "rv": 28.344741922462585,
+          "hip": 138.00664814383268
+        },
+        {
+          "i": 34,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 116.39419896293448,
+          "rk": 121.77043754769504,
+          "lv": 27.232446900556507,
+          "rv": 26.133931279504036,
+          "hip": 140.1999244792123
+        },
+        {
+          "i": 35,
+          "phase": "JumpPhase.UNWEIGHTING",
+          "lk": 122.27884939380972,
+          "rk": 128.04787637284628,
+          "lv": 25.150288405985307,
+          "rv": 23.638316867468443,
+          "hip": 142.79562382464314
+        },
+        {
+          "i": 36,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 128.69774055331612,
+          "rk": 134.90140321867486,
+          "lv": 22.76902609084399,
+          "rv": 20.809663794719008,
+          "hip": 145.83146705588544
+        },
+        {
+          "i": 37,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 135.67273432611174,
+          "rk": 142.33689860195915,
+          "lv": 20.04018580390998,
+          "rv": 17.613607292495495,
+          "hip": 149.33855511327917
+        },
+        {
+          "i": 38,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 143.20902815844232,
+          "rk": 150.33346078885043,
+          "lv": 16.928934668848797,
+          "rv": 14.039686283717177,
+          "hip": 153.3333621444313
+        },
+        {
+          "i": 39,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 151.28509061984087,
+          "rk": 158.83287021619063,
+          "lv": 13.424113345584182,
+          "rv": 10.111901844160325,
+          "hip": 157.8075397919696
+        },
+        {
+          "i": 40,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 159.84226430899,
+          "rk": 167.73239391323156,
+          "lv": 9.548846634655336,
+          "rv": 5.896183390627956,
+          "hip": 162.71727187212466
+        },
+        {
+          "i": 41,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 167.0306356351914,
+          "rk": 175.10677957566463,
+          "lv": 6.193558714657574,
+          "rv": 2.356611145478469,
+          "hip": 166.90179614631927
+        },
+        {
+          "i": 42,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 167.0306356351914,
+          "rk": 175.10677957566463,
+          "lv": 6.193558714657574,
+          "rv": 2.356611145478469,
+          "hip": 166.90179614631927
+        },
+        {
+          "i": 43,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 167.0306356351914,
+          "rk": 175.10677957566463,
+          "lv": 6.193558714657574,
+          "rv": 2.356611145478469,
+          "hip": 166.90179614631927
+        },
+        {
+          "i": 44,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 167.0306356351914,
+          "rk": 175.10677957566463,
+          "lv": 6.193558714657574,
+          "rv": 2.356611145478469,
+          "hip": 166.90179614631927
+        },
+        {
+          "i": 45,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 167.0306356351914,
+          "rk": 175.10677957566463,
+          "lv": 6.193558714657574,
+          "rv": 2.356611145478469,
+          "hip": 166.90179614631927
+        },
+        {
+          "i": 46,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 167.0306356351914,
+          "rk": 175.10677957566463,
+          "lv": 6.193558714657574,
+          "rv": 2.356611145478469,
+          "hip": 166.90179614631927
+        },
+        {
+          "i": 47,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402771,
+          "rv": 4.271510792305377,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 48,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 49,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402771,
+          "rv": 4.271510792305377,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 50,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 51,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 52,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 53,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 54,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 55,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402771,
+          "rv": 4.271510792305377,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 56,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 57,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 58,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 59,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 60,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402771,
+          "rv": 4.271510792305377,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 61,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 62,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402771,
+          "rv": 4.271510792305377,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 63,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 64,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 163.105860022928,
+          "rk": 171.13041433817378,
+          "lv": 8.051848931402775,
+          "rv": 4.2715107923053806,
+          "hip": 165.4685611897682
+        },
+        {
+          "i": 65,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 142.9432739869886,
+          "rk": 150.28560379221227,
+          "lv": 17.2482963343966,
+          "rv": 14.178064516068039,
+          "hip": 155.42033254172458
+        },
+        {
+          "i": 66,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 133.12335980960836,
+          "rk": 139.96649056409586,
+          "lv": 21.456766890456567,
+          "rv": 18.912364321086535,
+          "hip": 150.7206480208446
+        },
+        {
+          "i": 67,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 124.11824919449971,
+          "rk": 130.44652050883897,
+          "lv": 25.119923474195,
+          "rv": 23.126772454991887,
+          "hip": 146.64025663047494
+        },
+        {
+          "i": 68,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 115.94103672644809,
+          "rk": 121.77975421224663,
+          "lv": 28.26751514168932,
+          "rv": 26.81133074516713,
+          "hip": 143.16772571613393
+        },
+        {
+          "i": 69,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 108.56652343354372,
+          "rk": 113.96576531760849,
+          "lv": 30.95587185259371,
+          "rv": 29.999097948706417,
+          "hip": 140.26491791009693
+        },
+        {
+          "i": 70,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 101.94746467714636,
+          "rk": 106.96932700770918,
+          "lv": 33.25325916042886,
+          "rv": 32.74805269544303,
+          "hip": 137.88184019996177
+        },
+        {
+          "i": 71,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 96.02645500366665,
+          "rk": 100.73677594923477,
+          "lv": 35.23016138744208,
+          "rv": 35.126881565712566,
+          "hip": 135.9666459461978
+        },
+        {
+          "i": 72,
+          "phase": "JumpPhase.BRAKING",
+          "lk": 90.74376141295842,
+          "rk": 95.2076423995775,
+          "lv": 36.95376847676448,
+          "rv": 37.20564584460859,
+          "hip": 134.47151548826747
+        },
+        {
+          "i": 73,
+          "phase": "JumpPhase.PROPULSION",
+          "lk": 86.18684684845613,
+          "rk": 90.47177916941823,
+          "lv": 38.43766066905935,
+          "rv": 38.99323835824583,
+          "hip": 133.3858438076222
+        },
+        {
+          "i": 74,
+          "phase": "JumpPhase.PROPULSION",
+          "lk": 89.09385224187818,
+          "rk": 93.48256842467933,
+          "lv": 37.47467950847834,
+          "rv": 37.841803769023386,
+          "hip": 134.01709073939347
+        },
+        {
+          "i": 75,
+          "phase": "JumpPhase.PROPULSION",
+          "lk": 92.2147042138652,
+          "rk": 96.72932524500911,
+          "lv": 36.439665046566965,
+          "rv": 36.60431093974039,
+          "hip": 134.78121417704793
+        },
+        {
+          "i": 76,
+          "phase": "JumpPhase.PROPULSION",
+          "lk": 95.5621899413976,
+          "rk": 100.22546798355775,
+          "lv": 35.321053141880405,
+          "rv": 35.2680769182229,
+          "hip": 135.68590303683422
+        },
+        {
+          "i": 77,
+          "phase": "JumpPhase.PROPULSION",
+          "lk": 99.14954655128871,
+          "rk": 103.98481815492921,
+          "lv": 34.10639672408882,
+          "rv": 33.81960502094953,
+          "hip": 136.7399293811988
+        },
+        {
+          "i": 78,
+          "phase": "JumpPhase.TAKEOFF",
+          "lk": 102.99019318651139,
+          "rk": 108.02120316153128,
+          "lv": 32.78243417822523,
+          "rv": 32.244785184483426,
+          "hip": 137.95304748904053
+        },
+        {
+          "i": 79,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 107.09736808063882,
+          "rk": 112.34792020323114,
+          "lv": 31.335228252982525,
+          "rv": 30.52920758192238,
+          "hip": 139.3358251697081
+        },
+        {
+          "i": 80,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 111.48364671580792,
+          "rk": 116.97702886632018,
+          "lv": 29.750404882554125,
+          "rv": 28.65862781696139,
+          "hip": 140.89937789516912
+        },
+        {
+          "i": 81,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 116.1603152358591,
+          "rk": 121.91844203233886,
+          "lv": 28.013527082754237,
+          "rv": 26.61962364558285,
+          "hip": 142.65497053013848
+        },
+        {
+          "i": 82,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 121.13657399028392,
+          "rk": 127.17879457831494,
+          "lv": 26.110642895680034,
+          "rv": 24.40047779522057,
+          "hip": 144.61344761318202
+        },
+        {
+          "i": 83,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 126.41855192296505,
+          "rk": 132.76009159494873,
+          "lv": 24.02904519677626,
+          "rv": 21.99230382223678,
+          "hip": 146.78445429420054
+        },
+        {
+          "i": 84,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 132.00812721263537,
+          "rk": 138.65817764404227,
+          "lv": 21.758270527855476,
+          "rv": 19.39039615557075,
+          "hip": 149.17542067766175
+        },
+        {
+          "i": 85,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 137.90157778322697,
+          "rk": 144.86112914312542,
+          "lv": 19.291338250161356,
+          "rv": 16.59572721616796,
+          "hip": 151.79030818320769
+        },
+        {
+          "i": 86,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 144.0881313512207,
+          "rk": 151.34775048538464,
+          "lv": 16.62618472411278,
+          "rv": 13.616435411054232,
+          "hip": 154.62816311285033
+        },
+        {
+          "i": 87,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 150.5485495473914,
+          "rk": 158.08643668311495,
+          "lv": 13.767177929939804,
+          "rv": 10.469061145935367,
+          "hip": 157.68159189240362
+        },
+        {
+          "i": 88,
+          "phase": "JumpPhase.FLIGHT",
+          "lk": 157.25395716513844,
+          "rk": 165.03472162663763,
+          "lv": 10.726512670820938,
+          "rv": 7.179222727797705,
+          "hip": 160.93535770722693
+        },
+        {
+          "i": 89,
+          "phase": "JumpPhase.LANDING",
+          "lk": 164.16519526756102,
+          "rk": 172.13981894411097,
+          "lv": 7.525206108806402,
+          "rv": 3.7814214397068673,
+          "hip": 164.36537861127223
+        }
+      ]
+    },
+    "coaching": {
+      "form_score": 92.0,
+      "risk": {
+        "level": "Caution",
+        "colour": "amber",
+        "factors": [
+          "Mild knee valgus \u2014 keep knees tracking over the toes."
+        ]
+      },
+      "summary_en": "Vertical Jump (CMJ): form score 92/100, injury risk Caution. No critical flags.",
+      "summary_hi": "Vertical Jump (CMJ): \u092b\u093c\u0949\u0930\u094d\u092e \u0938\u094d\u0915\u094b\u0930 92/100, \u091a\u094b\u091f \u091c\u094b\u0916\u093f\u092e \u0938\u093e\u0935\u0927\u093e\u0928\u0940. \u0938\u093e\u0935\u0927\u093e\u0928\u0940 \u092c\u0930\u0924\u0947\u0902\u0964",
+      "tips": [
+        {
+          "code": "valgus_mild",
+          "severity": "amber",
+          "en": "Mild knee valgus \u2014 keep knees tracking over the toes.",
+          "hi": "\u0939\u0932\u094d\u0915\u093e \u0935\u0948\u0932\u094d\u0917\u0938 \u2014 \u0918\u0941\u091f\u0928\u0947 \u092a\u0902\u091c\u094b\u0902 \u0915\u0947 \u090a\u092a\u0930 \u0930\u0916\u0947\u0902\u0964",
+          "drill_en": "Banded lateral monster walks + single-leg Romanian deadlifts (3\u00d712 each side).",
+          "drill_hi": "\u092c\u0948\u0902\u0921\u0947\u0921 \u092e\u0949\u0928\u094d\u0938\u094d\u091f\u0930 \u0935\u0949\u0915 \u0914\u0930 \u0938\u093f\u0902\u0917\u0932-\u0932\u0947\u0917 RDL \u2014 \u0939\u0930 \u0924\u0930\u092b\u093c 3\u00d712\u0964"
+        }
+      ],
+      "drills": [
+        {
+          "en": "Banded lateral monster walks + single-leg Romanian deadlifts (3\u00d712 each side).",
+          "hi": "\u092c\u0948\u0902\u0921\u0947\u0921 \u092e\u0949\u0928\u094d\u0938\u094d\u091f\u0930 \u0935\u0949\u0915 \u0914\u0930 \u0938\u093f\u0902\u0917\u0932-\u0932\u0947\u0917 RDL \u2014 \u0939\u0930 \u0924\u0930\u092b\u093c 3\u00d712\u0964",
+          "code": "valgus"
+        }
+      ]
+    },
+    "keyframes": {
+      "73": "Lowest Dip",
+      "78": "Takeoff",
+      "89": "Landing Contact"
+    },
+    "annotated_video": "C:\\Users\\Shree Dhar Mishra\\.gemini\\antigravity-ide\\scratch\\kheldrishti\\outputs\\vertical_jump_cmj_vertical_jump_hud.mp4",
+    "annotated_video_url": "/outputs/vertical_jump_cmj_vertical_jump_hud.mp4"
+  },
+  "running_gait": {
+    "movement": "running_gait",
+    "fps": 30.0,
+    "frame_count": 90,
+    "pose_detected_frames": 90,
+    "synthetic_fallback": true,
+    "analysis": {
+      "movement_type": "Running Gait",
+      "phases": [
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT",
+        "GaitPhase.SWING_RIGHT"
+      ],
+      "cadence_spm": 0.0,
+      "mean_torso_lean": 0.8869916390901382,
+      "overstride_index": 0.0,
+      "overstride_detected": false,
+      "symmetry_index": 12.554403624774963,
+      "mean_left_knee_drive": 138.0731302263938,
+      "mean_right_knee_drive": 121.76271014522854,
+      "form_score": 90.0,
+      "warnings": [
+        "Upright trunk \u2014 limited forward lean for sprint mechanics."
+      ],
+      "tips": [
+        "Wall-drive 45\u00b0 leans and falling-start accelerations."
+      ],
+      "frame_count": 90,
+      "series": [
+        {
+          "i": 0,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 152.63808429839207,
+          "rk": 131.4674795818799,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 1,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 158.90776718230444,
+          "rk": 135.5789993528003,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 2,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 164.1559955379247,
+          "rk": 139.00952884964417,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 3,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.37782477590957,
+          "rk": 141.11526511952414,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 4,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.9593098403659,
+          "rk": 141.49553309281768,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 5,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 165.79058166027338,
+          "rk": 140.0776783624808,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 6,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 161.2830656276615,
+          "rk": 137.13217521185078,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 7,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 155.2999746518908,
+          "rk": 133.21588382402638,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 8,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 148.97625757678557,
+          "rk": 129.0527318256859,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 9,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 143.4526056856041,
+          "rk": 125.38176243573852,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 10,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 139.6368463628303,
+          "rk": 122.81990350044623,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 11,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.09055215584593,
+          "rk": 121.774514143183,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 12,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 139.0234942023858,
+          "rk": 122.40577259143457,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 13,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 142.31040381829888,
+          "rk": 124.61738948578865,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 14,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 147.47951519435352,
+          "rk": 128.06178531542628,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 15,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 153.70435733097162,
+          "rk": 132.1684406356791,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 16,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 159.88406254934276,
+          "rk": 136.21756559064283,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 17,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 164.85600666729755,
+          "rk": 139.4669352467502,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 18,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.667600175273,
+          "rk": 141.30475477679514,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 19,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.78405164545893,
+          "rk": 141.38091115394272,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 20,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 165.18336506254096,
+          "rk": 139.68085234222693,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 21,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 160.35976665490747,
+          "rk": 136.52861119948548,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 22,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 154.23743114168002,
+          "rk": 132.518566668748,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 23,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 147.97171452068628,
+          "rk": 128.38793632358377,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 24,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 142.6783773077721,
+          "rk": 124.86386177238936,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 25,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 139.21164125429493,
+          "rk": 122.53288136030017,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 26,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.0731302263938,
+          "rk": 121.76271014522854,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 27,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 139.41615663434266,
+          "rk": 122.67097450903815,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 28,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 143.05924609468292,
+          "rk": 125.1187490033968,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 29,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 148.47082870768332,
+          "rk": 128.71838487059355,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 30,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 154.76953636392923,
+          "rk": 132.86786306667548,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 31,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 160.82631192870716,
+          "rk": 136.8336155541129,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 32,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 165.49502990713918,
+          "rk": 139.8845246249835,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 33,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.88133118219008,
+          "rk": 141.4445325600646,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 34,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.53213125690002,
+          "rk": 141.2161662406332,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 35,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 164.5133960059212,
+          "rk": 139.24306061774706,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 36,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 159.39984424737315,
+          "rk": 135.9008892910538,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 37,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 153.17101090661973,
+          "rk": 131.8179302781511,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 38,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 146.99481702995564,
+          "rk": 127.7403237165942,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 39,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 141.9557122820532,
+          "rk": 124.37960993382421,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 40,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.85189267637924,
+          "rk": 122.28978450316241,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 41,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.12538023189035,
+          "rk": 121.79810969090292,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 42,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 139.87349953255256,
+          "rk": 122.97950760999838,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 43,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 143.8580338157685,
+          "rk": 125.65260257170138,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 44,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 149.48738775813095,
+          "rk": 129.39057124315036,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 45,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 155.82804648364058,
+          "rk": 133.56218288018817,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 46,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 161.72940796036002,
+          "rk": 137.4238944725924,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 47,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 166.06962304894725,
+          "rk": 140.26005377819538,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 48,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 168.01788432954672,
+          "rk": 141.53384388258837,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 49,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.20488585165432,
+          "rk": 141.00218757747234,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 50,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 163.78428828349186,
+          "rk": 138.7666529991477,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 51,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 158.40849645945838,
+          "rk": 135.25231867547242,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 52,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 152.10626524278294,
+          "rk": 131.1175305883107,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 53,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 146.05019629356715,
+          "rk": 127.11299740512396,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 54,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 141.2876323564609,
+          "rk": 123.93118436113198,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 55,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.5589519370061,
+          "rk": 122.09165414166466,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 56,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.24711265449366,
+          "rk": 121.88056341913325,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 57,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 140.39376705979504,
+          "rk": 123.33003769827117,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 58,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 144.70331845502463,
+          "rk": 126.21651250656213,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 59,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 150.52423713497325,
+          "rk": 130.07507242652304,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 60,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 156.8742940852528,
+          "rk": 134.24783526072267,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 61,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 162.58845020816858,
+          "rk": 137.9852713619874,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 62,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 166.57669982331873,
+          "rk": 140.59150261637114,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 63,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 168.07653643043835,
+          "rk": 141.57220648465213,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 64,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 166.80405612232187,
+          "rk": 140.74012963247415,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 65,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 162.99998428778144,
+          "rk": 138.25418172564147,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 66,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 157.3910758751069,
+          "rk": 134.58630204284074,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 67,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 151.04867059784226,
+          "rk": 130.42089252593593,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 68,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 145.14224274512458,
+          "rk": 126.50893157735148,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 69,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 140.6768736743945,
+          "rk": 123.52058184597857,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 70,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.33390627517292,
+          "rk": 121.93933449706951,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 71,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.43788447024215,
+          "rk": 122.00972293774936,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 72,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 140.9749279803977,
+          "rk": 123.7210376091587,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 73,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 145.59137157207775,
+          "rk": 126.80787642441989,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 74,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 151.57623566531683,
+          "rk": 130.76852278769397,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 75,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 157.9027057023612,
+          "rk": 134.92127535768805,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 76,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 163.39877716270257,
+          "rk": 138.51475831135943,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 77,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 167.0135446426556,
+          "rk": 140.877086171853,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 78,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 168.05697710417627,
+          "rk": 141.5594131909726,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 79,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 166.3317795488351,
+          "rk": 140.4314054384575,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 80,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 162.16473310854985,
+          "rk": 137.7083859887416,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 81,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 156.35305237187632,
+          "rk": 133.90631476670575,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 82,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 150.0035934334905,
+          "rk": 129.73149082872263,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 83,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 144.27509055480715,
+          "rk": 125.93095937515973,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 84,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 140.125888163378,
+          "rk": 123.14961398267667,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 85,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.17758287112713,
+          "rk": 121.83347189445652,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 86,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 138.6969972351873,
+          "rk": 122.18504111748581,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 87,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 141.6146714870876,
+          "rk": 124.1507897729183,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 88,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 146.51819182315094,
+          "rk": 127.4239357132963,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        },
+        {
+          "i": 89,
+          "phase": "GaitPhase.SWING_RIGHT",
+          "lk": 152.63808429839207,
+          "rk": 131.46747958187987,
+          "lv": null,
+          "rv": null,
+          "hip": null
+        }
+      ]
+    },
+    "coaching": {
+      "form_score": 90.0,
+      "risk": {
+        "level": "Safe",
+        "colour": "green",
+        "factors": []
+      },
+      "summary_en": "Running Gait: form score 90/100, injury risk Safe. Upright trunk \u2014 limited forward lean for sprint mechanics.",
+      "summary_hi": "Running Gait: \u092b\u093c\u0949\u0930\u094d\u092e \u0938\u094d\u0915\u094b\u0930 90/100, \u091a\u094b\u091f \u091c\u094b\u0916\u093f\u092e \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924. \u0906\u0917\u0947 \u092c\u0922\u093c\u0924\u0947 \u0930\u0939\u0947\u0902\u0964",
+      "tips": [
+        {
+          "code": "native_0",
+          "severity": "green",
+          "en": "Wall-drive 45\u00b0 leans and falling-start accelerations.",
+          "hi": "Wall-drive 45\u00b0 leans and falling-start accelerations.",
+          "drill_en": "",
+          "drill_hi": ""
+        }
+      ],
+      "drills": []
+    },
+    "keyframes": {},
+    "annotated_video": "C:\\Users\\Shree Dhar Mishra\\.gemini\\antigravity-ide\\scratch\\kheldrishti\\outputs\\running_gait_running_gait_hud.mp4",
+    "annotated_video_url": "/outputs/running_gait_running_gait_hud.mp4"
+  },
+  "squat_atg": {
+    "movement": "squat",
+    "fps": 30.0,
+    "frame_count": 80,
+    "pose_detected_frames": 80,
+    "synthetic_fallback": true,
+    "analysis": {
+      "movement_type": "Squat",
+      "phases": [
+        "SquatPhase.STANDING",
+        "SquatPhase.STANDING",
+        "SquatPhase.STANDING",
+        "SquatPhase.STANDING",
+        "SquatPhase.STANDING",
+        "SquatPhase.STANDING",
+        "SquatPhase.STANDING",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.DESCENT",
+        "SquatPhase.BOTTOM",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.ASCENT",
+        "SquatPhase.COMPLETE",
+        "SquatPhase.COMPLETE",
+        "SquatPhase.COMPLETE",
+        "SquatPhase.COMPLETE",
+        "SquatPhase.COMPLETE",
+        "SquatPhase.COMPLETE"
+      ],
+      "min_knee_angle": 86.99761462580571,
+      "depth_class": "Below Parallel (ATG)",
+      "butt_wink": false,
+      "peak_valgus": 41.34177591865717,
+      "valgus_risk": "High Risk",
+      "descent_vel": 68.36987800571927,
+      "ascent_vel": 57.281656930234846,
+      "tempo_ratio": 0.8378200839352865,
+      "asymmetry_index": -4.527346270680996,
+      "bottom_frame": 36,
+      "form_score": 78.0,
+      "warnings": [
+        "Knees collapsing inward \u2014 valgus under load."
+      ],
+      "tips": [
+        "Banded squats and monster walks so knees track over toes."
+      ],
+      "frame_count": 80,
+      "series": [
+        {
+          "i": 0,
+          "phase": "SquatPhase.STANDING",
+          "lk": 164.16519526756096,
+          "rk": 172.13981894411097,
+          "lv": 7.525206108806406,
+          "rv": 3.7814214397068904,
+          "hip": 171.49245812516534
+        },
+        {
+          "i": 1,
+          "phase": "SquatPhase.STANDING",
+          "lk": 160.57409630810253,
+          "rk": 168.4351893943774,
+          "lv": 9.187625111845637,
+          "rv": 5.554223887348387,
+          "hip": 169.2893877746977
+        },
+        {
+          "i": 2,
+          "phase": "SquatPhase.STANDING",
+          "lk": 157.04911143998632,
+          "rk": 164.7756707474412,
+          "lv": 10.79639376979799,
+          "rv": 7.294347812906303,
+          "hip": 167.1395529968011
+        },
+        {
+          "i": 3,
+          "phase": "SquatPhase.STANDING",
+          "lk": 153.59813268463543,
+          "rk": 161.1722757922267,
+          "lv": 12.34628811026713,
+          "rv": 8.993526122647348,
+          "hip": 165.0514662262808
+        },
+        {
+          "i": 4,
+          "phase": "SquatPhase.STANDING",
+          "lk": 150.22767358582112,
+          "rk": 157.63480774610363,
+          "lv": 13.833405438770459,
+          "rv": 10.644653580118998,
+          "hip": 163.03231290556297
+        },
+        {
+          "i": 5,
+          "phase": "SquatPhase.STANDING",
+          "lk": 146.94289627890456,
+          "rk": 154.17174316501243,
+          "lv": 15.255130307224535,
+          "rv": 12.241897039534036,
+          "hip": 161.08791585805542
+        },
+        {
+          "i": 6,
+          "phase": "SquatPhase.STANDING",
+          "lk": 143.74768267135082,
+          "rk": 150.79017857946766,
+          "lv": 16.610057337379484,
+          "rv": 13.780742188317967,
+          "hip": 159.22275622728623
+        },
+        {
+          "i": 7,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 140.64473816669343,
+          "rk": 147.49583553463418,
+          "lv": 17.897882570030188,
+          "rv": 15.257982776036332,
+          "hip": 157.4400409645011
+        },
+        {
+          "i": 8,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 137.63571651465185,
+          "rk": 144.29311475293716,
+          "lv": 19.119274821561564,
+          "rv": 16.67166180139834,
+          "hip": 155.74180528284097
+        },
+        {
+          "i": 9,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 134.72135551988325,
+          "rk": 141.1851881717561,
+          "lv": 20.27573735287268,
+          "rv": 18.020975988665946,
+          "hip": 154.12903839909697
+        },
+        {
+          "i": 10,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 131.90161508317962,
+          "rk": 138.17411719416495,
+          "lv": 21.369468392069734,
+          "rv": 19.30615525570167,
+          "hip": 152.60182187753628
+        },
+        {
+          "i": 11,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 129.17581102471527,
+          "rk": 135.2609862534117,
+          "lv": 22.40322705681522,
+          "rv": 20.52832808509445,
+          "hip": 151.15947156372943
+        },
+        {
+          "i": 12,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 126.54274007808772,
+          "rk": 132.4460423231705,
+          "lv": 23.380209265660138,
+          "rv": 21.689382156097146,
+          "hip": 149.8006760751114
+        },
+        {
+          "i": 13,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 124.00079317030047,
+          "rk": 129.72883292069494,
+          "lv": 24.303936486164247,
+          "rv": 22.791827660898843,
+          "hip": 148.52362680545744
+        },
+        {
+          "i": 14,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 121.54805552552915,
+          "rk": 127.1083371369707,
+          "lv": 25.178158732163467,
+          "rv": 23.838668725276232,
+          "hip": 147.32613620480333
+        },
+        {
+          "i": 15,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 119.18239322399188,
+          "rk": 124.58308606881509,
+          "lv": 26.00677211868734,
+          "rv": 24.833286498728768,
+          "hip": 146.205742606135
+        },
+        {
+          "i": 16,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 116.90152662971732,
+          "rk": 122.15127059588539,
+          "lv": 26.793750492464966,
+          "rv": 25.779335899378047,
+          "hip": 145.15980104773777
+        },
+        {
+          "i": 17,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 114.7030916152106,
+          "rk": 119.81083568891175,
+          "lv": 27.543090135779707,
+          "rv": 26.680656745841425,
+          "hip": 144.18556039644355
+        },
+        {
+          "i": 18,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 112.58468980957295,
+          "rk": 117.5595613556377,
+          "lv": 28.25876623876322,
+          "rv": 27.541199080231912,
+          "hip": 143.28022765165048
+        },
+        {
+          "i": 19,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 110.54392923227401,
+          "rk": 115.39513096194555,
+          "lv": 28.944699696986945,
+          "rv": 28.364961849004413,
+          "hip": 142.44102065503543
+        },
+        {
+          "i": 20,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 108.57845669473352,
+          "rk": 113.3151880572658,
+          "lv": 29.604732769785972,
+          "rv": 29.155943711319836,
+          "hip": 141.66521060026048
+        },
+        {
+          "i": 21,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 106.68598329530329,
+          "rk": 111.31738303928059,
+          "lv": 30.24261219051822,
+          "rv": 29.918104533737704,
+          "hip": 140.9501557798911
+        },
+        {
+          "i": 22,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 104.86430423072412,
+          "rk": 109.39941106334904,
+          "lv": 30.86197842183142,
+          "rv": 30.655336054561978,
+          "hip": 140.29332796461037
+        },
+        {
+          "i": 23,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 103.1113140213217,
+          "rk": 107.55904257998274,
+          "lv": 31.466359873773953,
+          "rv": 31.37144021741961,
+          "hip": 139.6923327153373
+        },
+        {
+          "i": 24,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 101.42501811402602,
+          "rk": 105.79414780352303,
+          "lv": 32.05917103370108,
+          "rv": 32.07011374648253,
+          "hip": 139.1449248065668
+        },
+        {
+          "i": 25,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 99.80354169734687,
+          "rk": 104.10271630307187,
+          "lv": 32.64371358314027,
+          "rv": 32.754937638236875,
+          "hip": 138.6490198066155
+        },
+        {
+          "i": 26,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 98.24513644226744,
+          "rk": 102.48287278157318,
+          "lv": 33.22317969081398,
+          "rv": 33.4293703571585,
+          "hip": 138.20270272929548
+        },
+        {
+          "i": 27,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 96.74818577627525,
+          "rk": 100.93288998369603,
+          "lv": 33.80065676843411,
+          "rv": 34.096743631249666,
+          "hip": 137.80423454934348
+        },
+        {
+          "i": 28,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 95.31120920608674,
+          "rk": 99.45119955622556,
+          "lv": 34.37913305416635,
+          "rv": 34.76025983883511,
+          "hip": 137.452057265067
+        },
+        {
+          "i": 29,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 93.93286612839535,
+          "rk": 98.03640158108263,
+          "lv": 34.96150344649611,
+          "rv": 35.42299005432797,
+          "hip": 137.14479809832693
+        },
+        {
+          "i": 30,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 92.61195950677786,
+          "rk": 96.68727341360204,
+          "lv": 35.55057504798078,
+          "rv": 36.087871874227375,
+          "hip": 136.88127334494294
+        },
+        {
+          "i": 31,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 91.34743974592,
+          "rk": 95.40277838850987,
+          "lv": 36.14907189371327,
+          "rv": 36.75770617334926,
+          "hip": 136.66049232781498
+        },
+        {
+          "i": 32,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 90.13840906065019,
+          "rk": 94.18207490346202,
+          "lv": 36.759638332979954,
+          "rv": 37.435151944234576,
+          "hip": 136.4816618600163
+        },
+        {
+          "i": 33,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 88.98412661600545,
+          "rk": 93.02452635485629,
+          "lv": 37.38484050422243,
+          "rv": 38.122718349576694,
+          "hip": 136.34419159517944
+        },
+        {
+          "i": 34,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 87.88401470500213,
+          "rk": 91.92971238261345,
+          "lv": 38.02716529252539,
+          "rv": 38.82275306869817,
+          "hip": 136.24770062710178
+        },
+        {
+          "i": 35,
+          "phase": "SquatPhase.DESCENT",
+          "lk": 86.83766623248196,
+          "rk": 90.89744187948706,
+          "lv": 38.689016084882674,
+          "rv": 39.53742594554432,
+          "hip": 136.19202569926478
+        },
+        {
+          "i": 36,
+          "phase": "SquatPhase.BOTTOM",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 37,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 38,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 39,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 40,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 41,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 42,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 43,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 84.92321639438583,
+          "rk": 89.0720128572256,
+          "lv": 40.39830974030576,
+          "rv": 41.34177591865717,
+          "hip": 136.1443409366743
+        },
+        {
+          "i": 44,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 85.43729351004309,
+          "rk": 89.56075705338247,
+          "lv": 39.96607631416243,
+          "rv": 40.88920885214562,
+          "hip": 136.10778907075303
+        },
+        {
+          "i": 45,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 86.41855450230474,
+          "rk": 90.50470534211733,
+          "lv": 39.20401760119081,
+          "rv": 40.08460715015668,
+          "hip": 136.07768117722063
+        },
+        {
+          "i": 46,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 87.45968967797135,
+          "rk": 91.51935020481122,
+          "lv": 38.47053536747139,
+          "rv": 39.30203578859025,
+          "hip": 136.09388314639244
+        },
+        {
+          "i": 47,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 88.5606714087667,
+          "rk": 92.6042121904824,
+          "lv": 37.76295009722628,
+          "rv": 38.53940664282938,
+          "hip": 136.1559917368393
+        },
+        {
+          "i": 48,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 89.72171976735973,
+          "rk": 93.75915523680179,
+          "lv": 37.07844979564844,
+          "rv": 37.79433488347078,
+          "hip": 136.26391606993622
+        },
+        {
+          "i": 49,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 90.94328720962176,
+          "rk": 94.98436121256796,
+          "lv": 36.41410847883912,
+          "rv": 37.06418016088085,
+          "hip": 136.41785970189338
+        },
+        {
+          "i": 50,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 92.22604613499897,
+          "rk": 96.28030867573798,
+          "lv": 35.76689735501953,
+          "rv": 36.34607725606112,
+          "hip": 136.61830630566274
+        },
+        {
+          "i": 51,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 93.57087883546478,
+          "rk": 97.64775503030266,
+          "lv": 35.13369013687724,
+          "rv": 35.63695813517473,
+          "hip": 136.86600831664583
+        },
+        {
+          "i": 52,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 94.97886938664402,
+          "rk": 99.08772132695685,
+          "lv": 34.51126371533945,
+          "rv": 34.93356713746192,
+          "hip": 137.16197794644347
+        },
+        {
+          "i": 53,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 96.45129705692965,
+          "rk": 100.60147898203977,
+          "lv": 33.89629525966294,
+          "rv": 34.23247085750282,
+          "hip": 137.50747999261085
+        },
+        {
+          "i": 54,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 97.98963081234197,
+          "rk": 102.19053768760499,
+          "lv": 33.285356686518945,
+          "rv": 33.530064157510715,
+          "hip": 137.90402587035157
+        },
+        {
+          "i": 55,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 99.5955244763244,
+          "rk": 103.8566337529755,
+          "lv": 32.6749073603485,
+          "rv": 32.82257366612363,
+          "hip": 138.35336826433607
+        },
+        {
+          "i": 56,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 101.27081206380527,
+          "rk": 105.6017180545032,
+          "lv": 32.061285847334176,
+          "rv": 32.10606008813325,
+          "hip": 138.8574957447464
+        },
+        {
+          "i": 57,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 103.01750274635188,
+          "rk": 107.42794267513061,
+          "lv": 31.440701544809276,
+          "rv": 31.37642066475286,
+          "hip": 139.41862661023458
+        },
+        {
+          "i": 58,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 104.83777481847162,
+          "rk": 109.33764518880609,
+          "lv": 30.809227046035446,
+          "rv": 30.629393185214813,
+          "hip": 140.0392011106909
+        },
+        {
+          "i": 59,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 106.73396792245127,
+          "rk": 111.33332938808758,
+          "lv": 30.162792176362263,
+          "rv": 29.86056305491367,
+          "hip": 140.7218710639407
+        },
+        {
+          "i": 60,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 108.70857264940533,
+          "rk": 113.41764106993425,
+          "lv": 29.497180749912904,
+          "rv": 29.065375067717703,
+          "hip": 141.46948571330802
+        },
+        {
+          "i": 61,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 110.76421646737272,
+          "rk": 115.59333729202349,
+          "lv": 28.808031244261418,
+          "rv": 28.239151701374936,
+          "hip": 142.28507248015305
+        },
+        {
+          "i": 62,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 112.9036447353967,
+          "rk": 117.86324730296332,
+          "lv": 28.09084277034698,
+          "rv": 27.377119940384347,
+          "hip": 143.17181105337806
+        },
+        {
+          "i": 63,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 115.1296953509825,
+          "rk": 120.23022315562685,
+          "lv": 27.34098791913117,
+          "rv": 26.47444880747388,
+          "hip": 144.1329990383299
+        },
+        {
+          "i": 64,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 117.44526535778466,
+          "rk": 122.69707786558375,
+          "lv": 26.553734283235812,
+          "rv": 25.52629991927971,
+          "hip": 145.172007180163
+        },
+        {
+          "i": 65,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 119.8532676289158,
+          "rk": 125.26650892212646,
+          "lv": 25.72427666165546,
+          "rv": 24.52789342659174,
+          "hip": 146.29222201180698
+        },
+        {
+          "i": 66,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 122.35657556712688,
+          "rk": 127.94100505976584,
+          "lv": 24.847782129243022,
+          "rv": 23.47459159116661,
+          "hip": 147.49697369798378
+        },
+        {
+          "i": 67,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 124.95795366755974,
+          "rk": 130.72273453234703,
+          "lv": 23.919450247686473,
+          "rv": 22.36200190931265,
+          "hip": 148.7894469140744
+        },
+        {
+          "i": 68,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 127.65997182873816,
+          "rk": 133.61341379365314,
+          "lv": 22.934590653246733,
+          "rv": 21.186101022530263,
+          "hip": 150.17257288908897
+        },
+        {
+          "i": 69,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 130.46490154688786,
+          "rk": 136.61415657761785,
+          "lv": 21.888720003803524,
+          "rv": 19.943379556359066,
+          "hip": 151.64890134797767
+        },
+        {
+          "i": 70,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 133.3745926771922,
+          "rk": 139.7253049786707,
+          "lv": 20.777679713350008,
+          "rv": 18.63100640875233,
+          "hip": 153.2204521108893
+        },
+        {
+          "i": 71,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 136.3903303924674,
+          "rk": 142.94624631313664,
+          "lv": 19.597774946089498,
+          "rv": 17.247008813247323,
+          "hip": 154.8885476403237
+        },
+        {
+          "i": 72,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 139.51267341047154,
+          "rk": 146.27522227791508,
+          "lv": 18.345933888714672,
+          "rv": 15.790461747487242,
+          "hip": 156.6536299349267
+        },
+        {
+          "i": 73,
+          "phase": "SquatPhase.ASCENT",
+          "lk": 142.74127656429607,
+          "rk": 149.7091400770308,
+          "lv": 17.019884299309254,
+          "rv": 14.26167707976141,
+          "hip": 158.51506784745476
+        },
+        {
+          "i": 74,
+          "phase": "SquatPhase.COMPLETE",
+          "lk": 146.0747033637661,
+          "rk": 153.24339846304304,
+          "lv": 15.61834173669691,
+          "rv": 12.662379541881128,
+          "hip": 160.47096403914728
+        },
+        {
+          "i": 75,
+          "phase": "SquatPhase.COMPLETE",
+          "lk": 149.5102372431867,
+          "rk": 156.87174455490404,
+          "lv": 14.141200801266425,
+          "rv": 10.995853669050977,
+          "hip": 162.51797410176758
+        },
+        {
+          "i": 76,
+          "phase": "SquatPhase.COMPLETE",
+          "lk": 153.04370346656074,
+          "rk": 160.58617919039926,
+          "lv": 12.589717412915395,
+          "rv": 9.26704391018097,
+          "hip": 164.65115342353565
+        },
+        {
+          "i": 77,
+          "phase": "SquatPhase.COMPLETE",
+          "lk": 156.66931673779257,
+          "rk": 164.37692869482603,
+          "lv": 10.966667041252999,
+          "rv": 7.4825899295424065,
+          "hip": 166.86384950789758
+        },
+        {
+          "i": 78,
+          "phase": "SquatPhase.COMPLETE",
+          "lk": 160.37957183019512,
+          "rk": 168.23249856633703,
+          "lv": 9.27646149574802,
+          "rv": 5.650781371462558,
+          "hip": 169.14765792262395
+        },
+        {
+          "i": 79,
+          "phase": "SquatPhase.COMPLETE",
+          "lk": 164.16519526756096,
+          "rk": 172.13981894411097,
+          "lv": 7.525206108806406,
+          "rv": 3.7814214397068904,
+          "hip": 171.49245812516534
+        }
+      ]
+    },
+    "coaching": {
+      "form_score": 78.0,
+      "risk": {
+        "level": "High Risk",
+        "colour": "red",
+        "factors": [
+          "Dynamic knee valgus \u2014 inward collapse is a leading non-contact ACL risk."
+        ]
+      },
+      "summary_en": "Squat: form score 78/100, injury risk High Risk. Knees collapsing inward \u2014 valgus under load.",
+      "summary_hi": "Squat: \u092b\u093c\u0949\u0930\u094d\u092e \u0938\u094d\u0915\u094b\u0930 78/100, \u091a\u094b\u091f \u091c\u094b\u0916\u093f\u092e \u0909\u091a\u094d\u091a \u091c\u094b\u0916\u093f\u092e. \u0938\u093e\u0935\u0927\u093e\u0928\u0940 \u092c\u0930\u0924\u0947\u0902\u0964",
+      "tips": [
+        {
+          "code": "valgus",
+          "severity": "red",
+          "en": "Dynamic knee valgus \u2014 inward collapse is a leading non-contact ACL risk.",
+          "hi": "\u0918\u0941\u091f\u0928\u0947 \u0905\u0902\u0926\u0930 \u0917\u093f\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902 (\u0935\u0948\u0932\u094d\u0917\u0938) \u2014 ACL \u091a\u094b\u091f \u0915\u093e \u092c\u0921\u093c\u093e \u0916\u0924\u0930\u093e\u0964",
+          "drill_en": "Banded lateral monster walks + single-leg Romanian deadlifts (3\u00d712 each side).",
+          "drill_hi": "\u092c\u0948\u0902\u0921\u0947\u0921 \u092e\u0949\u0928\u094d\u0938\u094d\u091f\u0930 \u0935\u0949\u0915 \u0914\u0930 \u0938\u093f\u0902\u0917\u0932-\u0932\u0947\u0917 RDL \u2014 \u0939\u0930 \u0924\u0930\u092b\u093c 3\u00d712\u0964"
+        },
+        {
+          "code": "native_0",
+          "severity": "green",
+          "en": "Banded squats and monster walks so knees track over toes.",
+          "hi": "Banded squats and monster walks so knees track over toes.",
+          "drill_en": "",
+          "drill_hi": ""
+        }
+      ],
+      "drills": [
+        {
+          "en": "Banded lateral monster walks + single-leg Romanian deadlifts (3\u00d712 each side).",
+          "hi": "\u092c\u0948\u0902\u0921\u0947\u0921 \u092e\u0949\u0928\u094d\u0938\u094d\u091f\u0930 \u0935\u0949\u0915 \u0914\u0930 \u0938\u093f\u0902\u0917\u0932-\u0932\u0947\u0917 RDL \u2014 \u0939\u0930 \u0924\u0930\u092b\u093c 3\u00d712\u0964",
+          "code": "valgus"
+        }
+      ]
+    },
+    "keyframes": {
+      "36": "Bottom"
+    },
+    "annotated_video": "C:\\Users\\Shree Dhar Mishra\\.gemini\\antigravity-ide\\scratch\\kheldrishti\\outputs\\squat_atg_squat_hud.mp4",
+    "annotated_video_url": "/outputs/squat_atg_squat_hud.mp4"
+  },
+  "volleyball_spike": {
+    "movement": "volleyball_spike",
+    "fps": 30.0,
+    "frame_count": 75,
+    "pose_detected_frames": 75,
+    "synthetic_fallback": true,
+    "analysis": {
+      "movement_type": "Volleyball Spike",
+      "phases": [
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.APPROACH",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.PENULTIMATE",
+        "SpikePhase.COCKING",
+        "SpikePhase.COCKING",
+        "SpikePhase.COCKING",
+        "SpikePhase.COCKING",
+        "SpikePhase.COCKING",
+        "SpikePhase.COCKING",
+        "SpikePhase.COCKING",
+        "SpikePhase.ACCELERATION",
+        "SpikePhase.ACCELERATION",
+        "SpikePhase.ACCELERATION",
+        "SpikePhase.CONTACT",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.LANDING",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE",
+        "SpikePhase.COMPLETE"
+      ],
+      "peak_reach_norm": 0.8906583072954379,
+      "peak_reach_frame": 37,
+      "cocking_elbow_angle": 167.92741514877076,
+      "cocking_ok": true,
+      "kinetic_chain_ok": true,
+      "kinetic_chain_order": [
+        "hips",
+        "shoulder",
+        "elbow",
+        "torso",
+        "wrist"
+      ],
+      "landing_asymmetry": -5.075835143171282,
+      "peak_valgus_landing": 36.24392678010758,
+      "valgus_risk": "High Risk",
+      "form_score": 80.0,
+      "warnings": [
+        "Knee valgus on spike landing \u2014 ACL caution."
+      ],
+      "tips": [
+        "Stick landings: knees track over toes, quiet feet."
+      ],
+      "frame_count": 75,
+      "series": [
+        {
+          "i": 0,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 1,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 2,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 3,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 4,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 5,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 6,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 7,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 8,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 9,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 10,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 11,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 12,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 13,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 14,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 15,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 16,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 17,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 18,
+          "phase": "SpikePhase.APPROACH",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 19,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 20,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 21,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 22,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 23,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 24,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 25,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 135.794152716221,
+          "rk": 142.4821170456628,
+          "lv": 20.007981986662447,
+          "rv": 17.560653214812113,
+          "hip": null
+        },
+        {
+          "i": 26,
+          "phase": "SpikePhase.PENULTIMATE",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 27,
+          "phase": "SpikePhase.COCKING",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 28,
+          "phase": "SpikePhase.COCKING",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 29,
+          "phase": "SpikePhase.COCKING",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 30,
+          "phase": "SpikePhase.COCKING",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 31,
+          "phase": "SpikePhase.COCKING",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 32,
+          "phase": "SpikePhase.COCKING",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 33,
+          "phase": "SpikePhase.COCKING",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 34,
+          "phase": "SpikePhase.ACCELERATION",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 35,
+          "phase": "SpikePhase.ACCELERATION",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 36,
+          "phase": "SpikePhase.ACCELERATION",
+          "lk": 106.06577884865996,
+          "rk": 111.61787235998055,
+          "lv": 32.52297018579635,
+          "rv": 31.49074766529681,
+          "hip": null
+        },
+        {
+          "i": 37,
+          "phase": "SpikePhase.CONTACT",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 38,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 39,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 40,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 41,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 42,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 43,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 44,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 45,
+          "phase": "SpikePhase.LANDING",
+          "lk": 142.70742064428498,
+          "rk": 149.6408468699273,
+          "lv": 17.008108865333423,
+          "rv": 14.277434409433567,
+          "hip": null
+        },
+        {
+          "i": 46,
+          "phase": "SpikePhase.LANDING",
+          "lk": 128.843144654136,
+          "rk": 135.27507803142586,
+          "lv": 22.99340973153953,
+          "rv": 20.84800016683331,
+          "hip": null
+        },
+        {
+          "i": 47,
+          "phase": "SpikePhase.LANDING",
+          "lk": 126.12249720961677,
+          "rk": 132.45210159424767,
+          "lv": 24.15407272935162,
+          "rv": 22.13143744605973,
+          "hip": null
+        },
+        {
+          "i": 48,
+          "phase": "SpikePhase.LANDING",
+          "lk": 123.46300465257852,
+          "rk": 129.69159161634704,
+          "lv": 25.28427123383285,
+          "rv": 23.38417725792525,
+          "hip": null
+        },
+        {
+          "i": 49,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 120.86593676319181,
+          "rk": 126.995038828838,
+          "lv": 26.38347168961206,
+          "rv": 24.605490609662954,
+          "hip": null
+        },
+        {
+          "i": 50,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 118.33215908991617,
+          "rk": 124.36350443270338,
+          "lv": 27.451160620447247,
+          "rv": 25.794698128470475,
+          "hip": null
+        },
+        {
+          "i": 51,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 115.86215405217403,
+          "rk": 121.79764254483594,
+          "lv": 28.486839300445077,
+          "rv": 26.951163429304426,
+          "hip": null
+        },
+        {
+          "i": 52,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 113.45604614193643,
+          "rk": 119.2977268555695,
+          "lv": 29.490018693301234,
+          "rv": 28.074286633953925,
+          "hip": null
+        },
+        {
+          "i": 53,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 111.11362997361536,
+          "rk": 116.8636802059099,
+          "lv": 30.460214650551432,
+          "rv": 29.16349807272767,
+          "hip": null
+        },
+        {
+          "i": 54,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 108.83440002242256,
+          "rk": 114.49510588918918,
+          "lv": 31.396943354510878,
+          "rv": 30.218252188887416,
+          "hip": null
+        },
+        {
+          "i": 55,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 106.61758101999901,
+          "rk": 112.19131961607856,
+          "lv": 32.299716987441855,
+          "rv": 31.238021656064067,
+          "hip": null
+        },
+        {
+          "i": 56,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 104.4621581267079,
+          "rk": 109.9513812377307,
+          "lv": 33.16803960542935,
+          "rv": 32.22229171033113,
+          "hip": null
+        },
+        {
+          "i": 57,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 102.36690615879046,
+          "rk": 107.77412548545172,
+          "lv": 34.00140319335459,
+          "rv": 33.17055469136899,
+          "hip": null
+        },
+        {
+          "i": 58,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 100.33041730468199,
+          "rk": 105.65819114574975,
+          "lv": 34.7992838761413,
+          "rv": 34.08230478117517,
+          "hip": null
+        },
+        {
+          "i": 59,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 98.35112691019741,
+          "rk": 103.60204823886053,
+          "lv": 35.56113826101386,
+          "rv": 34.9570329239796,
+          "hip": null
+        },
+        {
+          "i": 60,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 61,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 62,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 63,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 64,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 65,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 66,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 67,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 68,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 69,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 70,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 71,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 72,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 73,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        },
+        {
+          "i": 74,
+          "phase": "SpikePhase.COMPLETE",
+          "lk": 96.54123184085266,
+          "rk": 101.7222977181684,
+          "lv": 36.24392678010758,
+          "rv": 35.74505876454576,
+          "hip": null
+        }
+      ]
+    },
+    "coaching": {
+      "form_score": 80.0,
+      "risk": {
+        "level": "High Risk",
+        "colour": "red",
+        "factors": [
+          "Dynamic knee valgus \u2014 inward collapse is a leading non-contact ACL risk."
+        ]
+      },
+      "summary_en": "Volleyball Spike: form score 80/100, injury risk High Risk. Knee valgus on spike landing \u2014 ACL caution.",
+      "summary_hi": "Volleyball Spike: \u092b\u093c\u0949\u0930\u094d\u092e \u0938\u094d\u0915\u094b\u0930 80/100, \u091a\u094b\u091f \u091c\u094b\u0916\u093f\u092e \u0909\u091a\u094d\u091a \u091c\u094b\u0916\u093f\u092e. \u0938\u093e\u0935\u0927\u093e\u0928\u0940 \u092c\u0930\u0924\u0947\u0902\u0964",
+      "tips": [
+        {
+          "code": "valgus",
+          "severity": "red",
+          "en": "Dynamic knee valgus \u2014 inward collapse is a leading non-contact ACL risk.",
+          "hi": "\u0918\u0941\u091f\u0928\u0947 \u0905\u0902\u0926\u0930 \u0917\u093f\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902 (\u0935\u0948\u0932\u094d\u0917\u0938) \u2014 ACL \u091a\u094b\u091f \u0915\u093e \u092c\u0921\u093c\u093e \u0916\u0924\u0930\u093e\u0964",
+          "drill_en": "Banded lateral monster walks + single-leg Romanian deadlifts (3\u00d712 each side).",
+          "drill_hi": "\u092c\u0948\u0902\u0921\u0947\u0921 \u092e\u0949\u0928\u094d\u0938\u094d\u091f\u0930 \u0935\u0949\u0915 \u0914\u0930 \u0938\u093f\u0902\u0917\u0932-\u0932\u0947\u0917 RDL \u2014 \u0939\u0930 \u0924\u0930\u092b\u093c 3\u00d712\u0964"
+        },
+        {
+          "code": "native_0",
+          "severity": "green",
+          "en": "Stick landings: knees track over toes, quiet feet.",
+          "hi": "Stick landings: knees track over toes, quiet feet.",
+          "drill_en": "",
+          "drill_hi": ""
+        }
+      ],
+      "drills": [
+        {
+          "en": "Banded lateral monster walks + single-leg Romanian deadlifts (3\u00d712 each side).",
+          "hi": "\u092c\u0948\u0902\u0921\u0947\u0921 \u092e\u0949\u0928\u094d\u0938\u094d\u091f\u0930 \u0935\u0949\u0915 \u0914\u0930 \u0938\u093f\u0902\u0917\u0932-\u0932\u0947\u0917 RDL \u2014 \u0939\u0930 \u0924\u0930\u092b\u093c 3\u00d712\u0964",
+          "code": "valgus"
+        }
+      ]
+    },
+    "keyframes": {
+      "37": "Peak Reach"
+    },
+    "annotated_video": "C:\\Users\\Shree Dhar Mishra\\.gemini\\antigravity-ide\\scratch\\kheldrishti\\outputs\\volleyball_spike_volleyball_spike_hud.mp4",
+    "annotated_video_url": "/outputs/volleyball_spike_volleyball_spike_hud.mp4"
+  }
+}

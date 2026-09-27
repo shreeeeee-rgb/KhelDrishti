@@ -48,37 +48,85 @@
 
   $("voiceToggle").addEventListener("change", (e) => { state.voice = e.target.checked; });
 
-  fetch("/api/health").then((r) => r.json()).then((h) => {
-    $("healthPill").textContent = `${h.status} • ${h.mediapipe ? "MediaPipe" : "stub"} • ${h.device}`;
-  }).catch(() => { $("healthPill").textContent = "offline"; });
+  const getApiBase = () => (localStorage.getItem("kheldrishti_backend") || "").replace(/\/$/, "");
+  const getWsUrl = () => {
+    const custom = getApiBase();
+    if (custom) {
+      try {
+        const u = new URL(custom);
+        const wsProto = u.protocol === "https:" ? "wss" : "ws";
+        return `${wsProto}://${u.host}/ws/live-stream`;
+      } catch (e) {
+        return `ws://${custom.replace(/^https?:\/\//, "")}/ws/live-stream`;
+      }
+    }
+    const proto = location.protocol === "https:" ? "wss" : "ws";
+    return `${proto}://${location.host}/ws/live-stream`;
+  };
 
-  fetch("/api/movements").then((r) => r.json()).then((data) => {
-    const grid = $("benchGrid");
-    grid.innerHTML = "";
-    Object.entries(data.movements).forEach(([key, m]) => {
-      const art = document.createElement("article");
-      art.className = "glass";
-      art.innerHTML = `<h3>${m.label}</h3>` + Object.entries(m.benchmarks)
-        .map(([k, v]) => `<p><strong>${k.replaceAll("_", " ")}</strong><br/>${v}</p>`).join("");
-      grid.appendChild(art);
+  function refreshHealth() {
+    fetch(`${getApiBase()}/api/health`).then((r) => r.json()).then((h) => {
+      const mode = h.environment === "vercel-preview" ? "Vercel Preview" : (h.mediapipe ? "MediaPipe" : "stub");
+      $("healthPill").textContent = `${h.status} • ${mode} • ${h.device}`;
+    }).catch(() => {
+      $("healthPill").textContent = getApiBase() ? "backend offline" : "offline";
     });
-  });
+  }
+  refreshHealth();
 
-  fetch("/api/sample-videos").then((r) => r.json()).then((data) => {
-    const el = $("sampleCarousel");
-    el.innerHTML = "";
-    (data.samples || []).forEach((s) => {
-      const b = document.createElement("button");
-      b.className = "chip";
-      b.textContent = s.name;
-      b.onclick = () => {
-        $("preview").src = s.url;
-        state.sampleId = s.id;
-      };
-      el.appendChild(b);
-    });
-    if (data.samples && data.samples[0]) state.sampleId = data.samples[0].id;
-  });
+  if ($("backendBtn")) {
+    $("backendBtn").onclick = () => {
+      const current = localStorage.getItem("kheldrishti_backend") || "";
+      const val = prompt(
+        "Enter your KhelDrishti Python Backend URL:\n(Leave empty to use Vercel Serverless / current host)\n\nExamples:\n- Render/Railway: https://your-backend.onrender.com\n- Local: http://localhost:8000",
+        current
+      );
+      if (val !== null) {
+        if (val.trim()) {
+          localStorage.setItem("kheldrishti_backend", val.trim());
+        } else {
+          localStorage.removeItem("kheldrishti_backend");
+        }
+        refreshHealth();
+        loadMovements();
+        loadSamples();
+      }
+    };
+  }
+
+  function loadMovements() {
+    fetch(`${getApiBase()}/api/movements`).then((r) => r.json()).then((data) => {
+      const grid = $("benchGrid");
+      grid.innerHTML = "";
+      Object.entries(data.movements || {}).forEach(([key, m]) => {
+        const art = document.createElement("article");
+        art.className = "glass";
+        art.innerHTML = `<h3>${m.label}</h3>` + Object.entries(m.benchmarks || {})
+          .map(([k, v]) => `<p><strong>${k.replaceAll("_", " ")}</strong><br/>${v}</p>`).join("");
+        grid.appendChild(art);
+      });
+    }).catch(console.error);
+  }
+  loadMovements();
+
+  function loadSamples() {
+    fetch(`${getApiBase()}/api/sample-videos`).then((r) => r.json()).then((data) => {
+      const el = $("sampleCarousel");
+      el.innerHTML = "";
+      (data.samples || []).forEach((s) => {
+        const b = document.createElement("button");
+        b.className = "chip";
+        b.textContent = s.name;
+        b.onclick = () => {
+          $("preview").src = s.url;
+          state.sampleId = s.id;
+        };
+        el.appendChild(b);
+      });
+      if (data.samples && data.samples[0]) state.sampleId = data.samples[0].id;
+    }).catch(console.error);
+  }
+  loadSamples();
 
   function speak(text) {
     if (!state.voice || !text || !window.speechSynthesis) return;
@@ -117,10 +165,19 @@
 
   function connectWs() {
     if (state.ws && state.ws.readyState <= 1) return state.ws;
-    const proto = location.protocol === "https:" ? "wss" : "ws";
-    const ws = new WebSocket(`${proto}://${location.host}/ws/live-stream`);
+    const wsUrl = getWsUrl();
+    let ws;
+    try {
+      ws = new WebSocket(wsUrl);
+    } catch (e) {
+      $("liveCue").textContent = "Could not connect to WebSocket at " + wsUrl + ". Click ⚙️ Backend to configure.";
+      return null;
+    }
     state.ws = ws;
     ws.onopen = () => ws.send(JSON.stringify({ type: "config", movement: state.movement, language: state.lang }));
+    ws.onerror = () => {
+      $("liveCue").textContent = "WebSocket connection to " + wsUrl + " disconnected or failed. For live streaming, ensure your Python backend is running and click ⚙️ Backend.";
+    };
     ws.onmessage = (ev) => {
       const msg = JSON.parse(ev.data);
       if (msg.type !== "telemetry") return;
@@ -170,12 +227,16 @@
   }
 
   $("startCam").onclick = async () => {
-    state.stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" }, audio: false });
-    $("cam").srcObject = state.stream;
-    await $("cam").play();
-    connectWs();
-    state.looping = true;
-    loopSend();
+    try {
+      state.stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" }, audio: false });
+      $("cam").srcObject = state.stream;
+      await $("cam").play();
+      connectWs();
+      state.looping = true;
+      loopSend();
+    } catch (err) {
+      alert("Camera access error: " + err.message);
+    }
   };
   $("stopCam").onclick = () => {
     state.looping = false;
@@ -200,10 +261,18 @@
     fd.append("movement", state.movement);
     fd.append("language", state.lang);
     $("progressBar").style.width = "15%";
-    const res = await fetch("/api/analyze-video", { method: "POST", body: fd });
-    $("progressBar").style.width = "100%";
-    const data = await res.json();
-    applyReport(data);
+    try {
+      const res = await fetch(`${getApiBase()}/api/analyze-video`, { method: "POST", body: fd });
+      $("progressBar").style.width = "100%";
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.message || data.error || `Upload error (${res.status})`);
+      }
+      applyReport(data);
+    } catch (err) {
+      $("progressBar").style.width = "0%";
+      alert("Analysis error: " + err.message + "\n\nTip: Video analysis requires the Python backend. If running on Vercel, connect your backend URL via ⚙️ Backend.");
+    }
   }
 
   $("runSample").onclick = async (ev) => {
@@ -214,12 +283,16 @@
       fd.append("sample_id", state.sampleId || "vertical_jump_cmj");
       fd.append("movement", state.movement);
       fd.append("language", state.lang);
-      const res = await fetch("/api/analyze-sample", { method: "POST", body: fd });
+      const res = await fetch(`${getApiBase()}/api/analyze-sample`, { method: "POST", body: fd });
       $("progressBar").style.width = "100%";
-      if (!res.ok) throw new Error("Analysis failed: " + res.status);
+      if (!res.ok) {
+        const errJson = await res.json().catch(() => ({}));
+        throw new Error(errJson.error || errJson.detail || ("Analysis failed: " + res.status));
+      }
       const data = await res.json();
       applyReport(data);
     } catch (err) {
+      $("progressBar").style.width = "0%";
       $("keyframeList").textContent = String(err);
     }
   };
